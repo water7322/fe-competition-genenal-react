@@ -1,0 +1,14 @@
+/* 公共样式 */
+.box-border {
+    background: linear-gradient(12deg, #f7fbff 0%, #f3f5f8 100%);
+    box-shadow: inset 0px -1px 3px 0px rgba(51, 55, 61, 0.18), inset 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 2px solid;
+    border-image: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.98)) 2 2;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #353535;
+}

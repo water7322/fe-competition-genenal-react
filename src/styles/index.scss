@@ -1,0 +1,8 @@
+@import './common.scss';
+@import './reset.scss';
+// @import "./var.scss";
+@import './theme.scss';
+
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;

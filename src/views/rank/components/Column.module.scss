@@ -1,0 +1,26 @@
+.rank-table-column {
+    flex: 1;
+    text-align: center;
+
+    .table-column-head-item {
+        background: #dde8ff;
+        padding: 20px 0;
+        // font-size: var(--normal-font-size);
+    }
+
+    .table-column-row-item {
+        min-height: 81px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // font-size: var(--normal-font-size);
+    }
+
+    .table-column-row-item:nth-child(odd) {
+        background: #eff4ff;
+    }
+
+    .table-column-row-item:nth-child(even) {
+        background: #f9fbff;
+    }
+}

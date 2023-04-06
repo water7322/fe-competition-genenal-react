@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "baseUrl": ".",
+        "useDefineForClassFields": true,
+        "allowSyntheticDefaultImports": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "react-jsx",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "lib": ["esnext", "dom", "DOM.Iterable"],
+        "skipLibCheck": true,
+        "typeRoots": ["node_modules/@types"],
+        "noImplicitAny": false,
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    },
+    "include": ["src"],
+    "references": [{ "path": "./tsconfig.node.json" }]
+}

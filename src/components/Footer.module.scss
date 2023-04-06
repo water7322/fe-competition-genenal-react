@@ -1,0 +1,11 @@
+.footer {
+    background-color: var(--theme-color);
+
+    .logo-img:first-child:not(:last-child) {
+        margin-right: 12px;
+    }
+
+    .logo-img:last-child:not(:first-child) {
+        margin-left: 12px;
+    }
+}

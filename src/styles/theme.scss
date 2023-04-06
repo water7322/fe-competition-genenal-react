@@ -1,0 +1,140 @@
+:root {
+    --basis-color: #002373;
+    // tab
+    --tab-bg-from: #1c59e5;
+    --tab-bg-to: #00309e;
+    --tab-normal-color: #fff;
+    --tab-checked-color: #002373;
+    --tab-checked-bg: #f0fff8;
+
+    --header-block-from: #5693ff;
+    --header-block-to: #66fcc0;
+
+    --more-font-size: 18px;
+    --more-and-font-size: 20px;
+
+    --timeline-node-size: 20px;
+    --timeline-node-size-half: var(--timeline-node-size) / 2;
+    --timeline-half-height: 64px;
+    --timeline-node-circle: 6px;
+    --timeline-join-node: var(--timeline-node-size) / 2;
+}
+:root [theme='green'] {
+    --basis-color: #08b477;
+    // tab
+    --tab-bg-from: #1ada9f;
+    --tab-bg-to: #0ecb92;
+    --tab-normal-color: #fff;
+    --tab-checked-color: #08b477;
+    --tab-checked-bg: #f0fff8;
+
+    --header-block-from: #5693ff;
+    --header-block-to: #66fcc0;
+}
+:root [theme='blue'] {
+    --basis-color: #0e5fef;
+    // tab
+    --tab-bg-from: #389aff;
+    --tab-bg-to: #2b77ff;
+    --tab-normal-color: #c8dfff;
+    --tab-checked-color: #0e5fef;
+    --tab-checked-bg: #f0f5ff;
+
+    --header-block-from: #5592ff;
+    --header-block-to: #69b1ff;
+}
+:root [theme='blue2'] {
+    --basis-color: #002373;
+    // tab
+    --tab-bg-from: #1c59e5;
+    --tab-bg-to: #00309e;
+    --tab-normal-color: #fff;
+    --tab-checked-color: #002373;
+    --tab-checked-bg: #f0fff8;
+
+    --header-block-from: #5693ff;
+    --header-block-to: #66fcc0;
+}
+
+// 这一类的问题
+:root [theme='green'],
+:root [theme='blue'],
+:root [theme='blue2'] {
+    --small-font-size: 14px;
+    --normal-font-size: 16px;
+    --more-font-size: 18px;
+    --more-and-font-size: 20px;
+    --header-font-size: 26px;
+    --tab-font-size: 22px;
+    --sign-font-size: 24px;
+    --sign-small-size: 22px;
+    --sign-up-font-size: 29px;
+    --sign-count-font-size: 32px;
+    --track-title-font-size: 28px;
+
+    --home-track-font-size: 16px;
+
+    --form-title-font-size: 26px;
+    --form-title-label-strong-size: 26px;
+    --form-input-height: 32px;
+    --form-label-width: 155px;
+
+    --timeline-node-size: 20px;
+    --timeline-node-size-half: var(--timeline-node-size) / 2;
+    --timeline-half-height: 64px;
+    --timeline-node-circle: 6px;
+    --timeline-join-node: var(--timeline-node-size) / 2;
+
+    --check-radio-width: 24px;
+    --rank-button-font-size: 22px;
+    --rank-content-font-size: 18px;
+    --rank-icon-rank-size: 38px;
+}
+@media screen and (max-width: 900px) {
+    :root [theme='green'],
+    :root [theme='blue'],
+    :root [theme='blue2'] {
+        --timeline-node-size: 40px;
+        --timeline-join-node: var(--timeline-node-size) / 4;
+        --timeline-half-height: 120px;
+        --timeline-node-circle: 12px;
+        --normal-font-size: 28px;
+        --more-font-size: 32px;
+        --more-and-font-size: 34px;
+        --tab-font-size: 36px;
+        --header-font-size: 38px;
+        --sign-font-size: 36px;
+        --sign-small-size: 34px;
+        --small-font-size: 22px;
+        --sign-up-font-size: 42px;
+        --sign-count-font-size: 46px;
+        --track-title-font-size: 40px;
+
+        --home-track-font-size: 28px;
+
+        --form-title-font-size: 34px;
+        --form-title-label-strong-size: 30px;
+        --form-input-height: 62px;
+        --form-label-width: 200px;
+
+        --check-radio-width: 34px;
+        --rank-button-font-size: 30px;
+        --rank-content-font-size: 26px;
+        --rank-icon-rank-size: 48px;
+    }
+}
+@media screen and (max-width: 375px) {
+    :root [theme='green'],
+    :root [theme='blue'],
+    :root [theme='blue2'] {
+        --normal-font-size: 24px;
+        --home-track-font-size: 20px;
+    }
+}
+
+// @media(max-width:540px){ html { font-size:84.375px; } } /*Android常用宽度*/
+// @media(max-width:480px){ html { font-size:75px; } }		/*Android常用宽度*/
+// @media(max-width:414px){ html { font-size:64.69px; } }  /*i6Plus,i7Plus宽度*/
+// @media(max-width:375px){ html { font-size:58.59px; } }	/*i6,i7宽度*/
+// @media(max-width:360px){ html { font-size:56.25px; } }	/*Android常用宽度*/
+// @media(max-width:320px){ html { font-size:50px; } }		/*i5宽度*/
